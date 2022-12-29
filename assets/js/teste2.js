@@ -49,7 +49,7 @@
         select('.search-bar').classList.toggle('search-bar-show')
       })
     }
-  
+  dasdad
     /**
      * Navbar links active state on scroll
      */

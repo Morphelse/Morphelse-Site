@@ -31,8 +31,8 @@ function checkEmail(input) {
 //check required fields
 function checkRequired(inputArr) {
   inputArr.forEach(function (input) {
-    if (input.value.trim() === '') {
-      showError(input, `${getFieldName(input)} é necessário`);
+    if (senha2.value.trim() === '') {
+      showError(input, `Confirme sua senha`);
     } else {
       showSuccess(input);
     }
